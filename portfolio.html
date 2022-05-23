@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.min.css@8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <style>
+            a{ text-decoration: none;}
+            a:hover {color:#2196F3;}
+            a {color: #212121;}
+            a[title] {color: #757575;}
+            a[color] {color: rgba(255, 255, 255, 0.6)}
+            li {list-style-type: none;}
+        </style>
+    </head>
+    <body class="body-portfolio">
+        <!-- Header-->
+        <header class="top-line">
+            <div class="top-line-container container">
+                <nav class="nav">    
+                    <a href="WebStudio" class="logo logo-top-line"><span class="web">Web</span>Studio</a>
+                    <ul class="nav-list list">
+                        <li class="nav-item">
+                            <a href="./index.html">Студия</a></li>
+                        <li class="nav-item">
+                            <a href="./portfolio.html">Портфолио</a></li>
+                        <li class="nav-item">
+                            <a href="Контакты">Контакты</li>
+                    </ul>
+                </nav>
+                <div class="header-wrapper-list">
+                    <li class="header-wrapper-item">
+                        <a href="mailto:info@devstudio.com" title="info@devstudio.com">
+                            <svg class="studio-icon link" width="10" height="16">
+                                <use href="./image/sprite.svg#envelope"></use>
+                            </svg>info@devstudio.com</a></li>
+                    <li class="header-wrapper-item">
+                        <a href="tel:+380961111111" title="+380961111111">
+                            <svg class="studio-icon link" width="10" height="16">
+                            <use href="./image/sprite.svg#smartphone"></use>
+                        </svg>+380961111111</a></li>
+                </div>  
+            </div>
+        </header>
+        <main>
+              <!-- Portfolio-->
+            <section class="portfolio-section">
+                <div class="portfolio-container container">
+                    <ul class="portfolio-list">
+                        <li><button class="portfolio-item">Все</button></li>
+                        <li><button class="portfolio-item">Веб-сайты</button></li>
+                        <li><button class="portfolio-item">Приложения</button></li>
+                        <li><button class="portfolio-item">Дизайн</button></li>
+                        <li><button class="portfolio-item">Маркетинг</button></li>
+                    </ul>
+                    <!-- Projects -->
+                    <ul class="projects-list grid">
+                        <li class="projects-item grid-item"><img src="./image.portfolio/img-(10).jpg" alt="">
+                            <p class="projects-desc">Технокряк</p><a href="Веб-сайт" class="projects-tagline">Веб-сайт</a>
+                        </img></li>
+                        <li class="projects-item grid-item"><img src="./image.portfolio/img-(1).jpg" alt="">
+                            <p class="projects-desc">Постер New Orlean vs Golden Star</p><a href="Дизайн" class="projects-tagline">Дизайн</a>
+                        </img></li>
+                        <li class="projects-item grid-item"><img src="./image.portfolio/img-(2).jpg" alt="">
+                            <p class="projects-desc">Ресторан Seafood</p><a href="Приложение" class="projects-tagline">Приложение</a>
+                        </img></li>
+                        <li class="projects-item grid-item"><img src="./image.portfolio/img-(3).jpg" alt="">
+                            <p class="projects-desc">Проект Prime</p><a href="Маркетинг" class="projects-tagline">Маркетинг</a>
+                        </img></li>
+                        <li class="projects-item grid-item"><img src="./image.portfolio/img-(4).jpg" alt="">
+                            <p class="projects-desc">Проект Boxes</p><a href="Приложение" class="projects-tagline">Приложение</a>
+                        </img></li>
+                        <li class="projects-item grid-item"><img src="./image.portfolio/img-(5).jpg" alt="">
+                            <p class="projects-desc">Inspiration has no Borders</p><a href="Веб-сайт" class="projects-tagline">Веб-сайт</a>
+                        </img></li>
+                        <li class="projects-item grid-item"><img src="./image.portfolio/img-(6).jpg" alt="">
+                            <p class="projects-desc">Издание Limited Edition</p><a href="Дизайн" class="projects-tagline">Дизайн</a>
+                        </img></li>
+                        <li class="projects-item grid-item"><img src="./image.portfolio/img-(7).jpg" alt="">
+                            <p class="projects-desc">Проект LAB</p><a href="Маркетинг" class="projects-tagline">Маркетинг</a>
+                        </img></li>
+                        <li class="projects-item grid-item"><img src="./image.portfolio/img-(8).jpg" alt="">
+                            <p class="projects-desc">Growing Business</p><a href="Приложение" class="projects-tagline">Приложение</a>
+                        </img></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+                <!-- Footer -->
+            <footer class="footer">
+                <div class="footer-container container">
+                    <!-- WebStudio -->
+                    <div class=" footer-list-container">
+                        <a href="WebStudio" class="logo logo-footer"><span class="web">Web</span>Studio</a>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+                            </li>
+                            <li class="footer-item"><a href="mailto:info@devstudio.com"
+                                    color="mailto:info@devstudio.com">@devstudio.com</a></li>
+                            <li class="footer-item"><a href="tel:+380961111111" color="tel:+380961111111">+380961111111</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-socials-container">
+                        <h3 class="socials-title">присоединяйтесь</h3>
+                        <ul class="socials list">
+                            <li class="socials-item">
+                                <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    aria-label="иконка Instagram">
+                                    <svg class="socials-icon" width="20" height="20">
+                                        <use href="./image/sprite.svg#instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials-item">
+                                <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    aria-label="иконка Twitter">
+                                    <svg class="socials-icon" width="20" height="20">
+                                        <use href="./image/sprite.svg#twitter"></use>
+                                    </svg></a>
+                            </li>
+                            <li class="socials-item">
+                                <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    aria-label="иконка Facebook">
+                                    <svg class="socials-icon" width="20" height="20">
+                                        <use href="./image/sprite.svg#facebook"></use>
+                                    </svg></a>
+                            </li>
+                            <li class="socials-item">
+                                <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer"
+                                    aria-label="иконка Linkedin">
+                                    <svg class="socials-icon" width="20" height="20">
+                                        <use href="./image/sprite.svg#linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+    </body>
+</html>
