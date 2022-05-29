@@ -173,6 +173,10 @@ border-bottom: 1px solid #ECECEC;
     width: 100%;
 }
 
+.top-nav{
+    color: var(--accent-cl);
+}
+
 .nav-item{
     font-family: var(--main-font);
     font-style: normal;
@@ -789,6 +793,7 @@ border: 1px solid #EEEEEE;
 }
 
 .socials-icon{
+    fill: currentColor;
    fill: var(--secondary-txt-cl);
    
 }
