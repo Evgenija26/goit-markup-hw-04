@@ -359,16 +359,11 @@ border-bottom: 1px solid #ECECEC;
 
 }
 
-.about-us-vector{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
 .about-us-icon{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     width: 270px;
     height: 120px;
     background: #F5F4FA;
@@ -557,7 +552,18 @@ border-bottom: 1px solid #ECECEC;
     margin-right: 8px;
     padding: 6px 22px;
     color: var(--main-txt-cl);
+    border: none;
 
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus{
+    background-color: var(--accent-cl);
 }
 
 .portfolio-item :last-child{
@@ -576,7 +582,7 @@ border-bottom: 1px solid #ECECEC;
 }
 
 .projects-item{
-    margin: 13px;
+    margin: 12px;
 border: 1px solid #EEEEEE;
 }
 
@@ -657,6 +663,9 @@ border: 1px solid #EEEEEE;
 }
 
 .clients-item{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
 
     width: 170px;
@@ -667,10 +676,6 @@ border: 1px solid #EEEEEE;
     border-radius: 4px;
 
     align-self: center;
-}
-
-.clients-item{
-    --items: 5;
 }
 
 .clients-item :last-child{
@@ -684,14 +689,13 @@ border: 1px solid #EEEEEE;
 }
 
 .client{
-    display: flex;
-    justify-content: center;
-    
+    fill: #AFB1B8;
+    fill: currentColor;
 }
 
 .client:hover,
 .client:focus{
-    color: var(--main-bg-cl);
+    color: var(--accent-cl);
 }
 
 /*============================*/
@@ -779,16 +783,25 @@ border: 1px solid #EEEEEE;
 
     background: rgba(255, 255, 255, 0.1);
     color: #303030;
+    fill: currentColor;
 
     border-radius: 50%;
 }
 
 .socials-icon{
-   fill: var(--main-bg-cl);
+   fill: var(--secondary-txt-cl);
    
 }
 
+.socials-icon-footer{
+    fill: currentColor;
+    fill: var(--main-bg-cl);
+}
 
+/* .socials-icon:hover,
+.socials-icon:focus, */
+.socials-icon-footer:hover,
+.socials-icon-footer:focus,
 .socials-link:hover,
 .socials-link:focus {
     
