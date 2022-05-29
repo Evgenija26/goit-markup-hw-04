@@ -734,13 +734,23 @@ border-bottom: 1px solid #ECECEC;
 }
 
 .footer-list-container{
-    
-    margin-right: 215px;
-
+    margin-right: 70px;
 }
 
 .footer-socials-container{
     margin-right: 70px;
+}
+
+.socials-title{
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
 }
 
 .address{
