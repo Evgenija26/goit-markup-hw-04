@@ -217,7 +217,8 @@ border-bottom: 1px solid #ECECEC;
 
 
 .contact-link{
-    font-family: var(--secondary-txt-cl);
+    font-family: var(--main-font);
+    
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -232,25 +233,12 @@ border-bottom: 1px solid #ECECEC;
     margin-right: 0px;
 } */
 
-.header-contact {
-    font-family: var(--main-font);
-    color: var(--text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-}
-
 .header-wrapper-list {
     display: flex;
     align-items: center;
     margin-left: auto;
 }
 
-.contact-link{
-    fill: #757575;
-}
 
 .contact-link:hover,
 .contact-link:focus{
